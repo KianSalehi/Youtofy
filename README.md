@@ -27,5 +27,6 @@ pip install requests
 youtube_url = "https://www.youtube.com/watch?v={}".format("id") # searches 'id' on youtube to download the directed content
 
 youtube_dl.YoutubeDL({}).extract_info(youtube_url, download=False)   # downloads information with youtube_dl
-
 ```
+
+Project inspired by https://www.youtube.com/watch?v=7J_qcttfnJA
